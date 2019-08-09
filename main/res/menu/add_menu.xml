@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/add_note"
+        android:title="add note"
+        app:showAsAction="ifRoom"
+        />
+        <item
+            android:id="@+id/action_set_alarm"
+            android:title="Alarm"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_cancel_alarm"
+            android:title="CancelAlarm"
+            app:showAsAction="ifRoom" />
+
+
+
+</menu>
